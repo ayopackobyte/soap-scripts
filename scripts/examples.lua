@@ -1,5 +1,3 @@
-local bloque = workspace.Part
+local bloque = instance.new("part")
 
-bloque.Anchored = true
-bloque.Transparency = 0.5
-bloque.Color = Color3.fromHex("#800080")
+Nbloque.Size = Vector3.new (0, -2, 6)
