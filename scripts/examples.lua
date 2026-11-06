@@ -1,6 +1,6 @@
-local root = character:WaitFor("HumanoidRootPart")
+local root = character:WaitForChild("HumanoidRootPart")
 local character = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
-local bloq = instance.new("part")
+local bloq = Instance.new("part")
 bloq.Parent = Workspace
 
 bloq.Size = Vector3.new (20, 20, 20)
