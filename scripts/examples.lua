@@ -1,1 +1,1 @@
-local BodyColors.HeadColor = Color3("")	
+local BodyColors.HeadColor = Color3.fromHex("#020202")	
