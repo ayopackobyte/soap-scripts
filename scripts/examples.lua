@@ -1,5 +1,5 @@
 local Players = game.GetService("Players")
-local player = game.Players.LocalPlayer
+local player = Players.LocalPlayer or Players:GetPlayers()[1]
 local character = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
 local root = character:WaitForChild("HumanoidRootPart")
 
