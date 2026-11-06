@@ -1,1 +1,1 @@
-local bloq = ins
+local bloque = Instance.new("Part")
