@@ -7,6 +7,6 @@ local bloq = Instance.new("Part")
 bloq.Size = Vector3.new (4, 4, 4)
 bloq.Color = Color3.fromRGB(128, 0, 128)
 bloq.Material = Enum.Material.Neon
-bloq.Anchored = true
+bloq.Anchored = false
 bloq.CFrame = root.CFrame * CFrame.new(0, 10, 0)
 bloq.Parent = workspace
