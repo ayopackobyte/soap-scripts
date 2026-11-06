@@ -1,8 +1,10 @@
-local root = character
-local Nbloque = instance.new("part")
+local root = character:WaitFor("HumanoidRootPart")
+local character = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+local bloq = instance.new("part")
+bloq.Parent = Workspace
 
-Nbloque.Size = Vector3.new (20, 20, 20)
-Nbloque.Color = Color3.fromRGB(128, 0, 128)
-Nbloque.Material = Enum.Material.Neon
-Nbloque.Anchored = true
-Nbloque.CFrame =
+bloq.Size = Vector3.new (20, 20, 20)
+bloq.Color = Color3.fromRGB(128, 0, 128)
+bloq.Material = Enum.Material.Neon
+bloq.Anchored = true
+bloq.CFrame = rootCFrame * Cframe.new(0, 2, -5)
