@@ -1,2 +1,1 @@
-local part = Instance.new("Part)
-workspace.Parent = part
+local BodyColors.HeadColor = Color3("")	
